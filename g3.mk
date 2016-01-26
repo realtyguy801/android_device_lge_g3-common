@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
     
 # Extras
 PRODUCT_PACKAGES += \
-   Eleven
+   Eleven \
+   Messaging
 
 # GPS
 PRODUCT_PACKAGES += \
