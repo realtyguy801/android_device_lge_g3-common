@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "Tesla-M-Devices/android_kernel_lge_g3",
+    "target_path": "kernel/lge/g3",
+    "branch":      "6.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_packages_apps_Eleven",
+    "target_path": "packages/apps/Eleven",
+    "branch":      "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_packages_apps_Messaging",
+    "target_path": "packages/apps/Messaging",
+    "branch":      "cm-13.0"
+  }
+]

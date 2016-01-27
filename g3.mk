@@ -56,7 +56,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 
 # Boot animation
-TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOTANIMATION_HALF_RES := false
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
@@ -101,6 +101,11 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
     liboverlay
+    
+# Extras
+PRODUCT_PACKAGES += \
+   Eleven \
+   Messaging
 
 # GPS
 PRODUCT_PACKAGES += \
