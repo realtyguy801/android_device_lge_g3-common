@@ -203,6 +203,10 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Skip HDCP
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.wfd.nohdcp=1
+
 # BSOD Killer
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
