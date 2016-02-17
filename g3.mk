@@ -187,6 +187,7 @@ PRODUCT_PACKAGES += \
     init.g3.usb.rc \
     init.msm8974.sensor.sh \
     init.qcom.sh \
+    init.qcom.bt.sh \
     init.baseband.sh \
     ueventd.g3.rc
 
