@@ -105,10 +105,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
     liboverlay
-    
-# Extras
-PRODUCT_PACKAGES += \
-   Eleven
 
 # GPS
 PRODUCT_PACKAGES += \
