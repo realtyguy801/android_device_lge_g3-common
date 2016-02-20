@@ -89,6 +89,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hwaddrs
 
+# BoringSSL compatability wrapper
+PRODUCT_PACKAGES += \
+    libboringssl-compat
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
