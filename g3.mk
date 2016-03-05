@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.bt.sh \
     init.baseband.sh \
+    init.sensors.sh \
     ueventd.g3.rc
 
 # RIL symbols
