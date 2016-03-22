@@ -1,7 +1,7 @@
 [
   {
     "remote":      "github",
-    "repository":  "Tesla-M-Devices/android_kernel_lge_g3",
+    "repository":  "Tesla-M-Devices/kernel_lge_g3",
     "target_path": "kernel/lge/g3",
     "branch":      "CooCoo"
   },
