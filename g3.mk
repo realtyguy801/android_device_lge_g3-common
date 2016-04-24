@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
    telephony-ext
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusDoze
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
