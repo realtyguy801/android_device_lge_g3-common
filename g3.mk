@@ -105,10 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
-# GPS
-PRODUCT_PACKAGES += \
-    gps.msm8974
-
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
