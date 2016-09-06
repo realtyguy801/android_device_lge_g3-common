@@ -105,10 +105,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
-
 # Telephony-ext
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
+
+# GPS
+PRODUCT_PACKAGES += \
+    gps.msm8974
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
