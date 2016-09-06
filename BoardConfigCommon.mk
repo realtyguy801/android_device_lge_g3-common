@@ -69,7 +69,7 @@ BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
 
 # Crypto
-TARGET_HW_DISK_ENCRYPTION := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # Display
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
