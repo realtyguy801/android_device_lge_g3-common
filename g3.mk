@@ -105,11 +105,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
-# Telephony-ext
-PRODUCT_PACKAGES += telephony-ext
-PRODUCT_BOOT_JARS += telephony-ext
+# Telephony-ext packages
+PRODUCT_PACKAGES += \
+   telephony-ext \
+   ims-ext-common
 
+PRODUCT_BOOT_JARS += \
+   telephony-ext
 # GPS
+
 PRODUCT_PACKAGES += \
     gps.msm8974
 
