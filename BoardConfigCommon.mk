@@ -95,7 +95,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_POWERHAL_VARIANT := qcom
 
 # RIL
-TARGET_RIL_VARIANT := caf
+BOARD_RIL_CLASS += ../../../device/lge/g3-common/ril
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
