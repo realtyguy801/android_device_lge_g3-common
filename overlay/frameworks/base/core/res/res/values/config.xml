@@ -313,5 +313,7 @@
     <!-- Support in Surfaceflinger for blur layers.
          NOTE: This requires additional hardware-specific code. -->
     <!--bool name="config_ui_blur_enabled">true</bool-->
-
+    
+    <!-- Bool whether to show Hardware keys settings in TeslaCoil -->
+    <bool name="config_showHwKeys">false</bool>
 </resources>
