@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusDoze
+
 # Gello
 PRODUCT_PACKAGES += \
     Gello
