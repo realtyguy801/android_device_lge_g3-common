@@ -113,7 +113,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
    telephony-ext
 # GPS
-
 PRODUCT_PACKAGES += \
     gps.msm8974
 
@@ -190,10 +189,6 @@ PRODUCT_PACKAGES += \
     init.baseband.sh \
     init.sensors.sh \
     ueventd.g3.rc
-    
-    PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.codecremote=false \
-    media.stagefright.legacyencoder=true
 
 # RIL symbols
 PRODUCT_PACKAGES += \
