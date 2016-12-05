@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
     liboverlay
+    
+# QuickCircle Case App
+PRODUCT_PACKAGES += \
+    QuickCircle
+
+# Glove mode
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # Gello
 PRODUCT_PACKAGES += \
