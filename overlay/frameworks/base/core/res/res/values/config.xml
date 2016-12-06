@@ -257,6 +257,7 @@
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
     <!-- Ambient Display : Dream of Notifications -->
+    <integer name="config_screenBrightnessDoze">32</integer>
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
