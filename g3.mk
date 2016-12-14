@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# OMS MASQUERADE
+PRODUCT_PACKAGES += \
+   masquerade
+
 # Telephony-ext packages
 PRODUCT_PACKAGES += \
    telephony-ext \
