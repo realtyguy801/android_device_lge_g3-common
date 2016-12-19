@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     Snap \
     camera.msm8974
 
+# SnapdragonGallery
+PRODUCT_PACKAGES += \
+    SnapdragonGallery
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
