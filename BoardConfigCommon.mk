@@ -115,3 +115,5 @@ BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
