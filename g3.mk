@@ -161,6 +161,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
+# 3Minit Battery Resources
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/3Minit/3MinitBatteryResources.apk:system/app/3MinitBatteryResources/3MinitBatteryResources.apk \
+    device/lge/g3-common/3Minit/3MinitBatterySettings.apk:system/app/3MinitBatterySettings/3MinitBatterySettings.apk
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
