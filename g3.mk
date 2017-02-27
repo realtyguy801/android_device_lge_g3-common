@@ -203,13 +203,9 @@ PRODUCT_PACKAGES += \
     init.sensors.sh \
     ueventd.g3.rc
 
-    PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.codecremote=false \
     media.stagefright.legacyencoder=true
-
-# RIL symbols
-PRODUCT_PACKAGES += \
-    liblge
 
 # Thermal
 PRODUCT_COPY_FILES += \
