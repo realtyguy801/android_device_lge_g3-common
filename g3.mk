@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
    telephony-ext
 
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # Doze mode
 PRODUCT_PACKAGES += \
     OneplusDoze
