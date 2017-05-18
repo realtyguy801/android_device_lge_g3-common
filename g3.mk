@@ -102,17 +102,9 @@ PRODUCT_PACKAGES += \
     memtrack.msm8974 \
     liboverlay
     
-# Gello
+# Jelly
 PRODUCT_PACKAGES += \
-    Gello
-
-# Telephony-ext packages
-PRODUCT_PACKAGES += \
-   telephony-ext \
-   ims-ext-common
-
-PRODUCT_BOOT_JARS += \
-   telephony-ext
+    Jelly
 
 # FlipFlap
 PRODUCT_PACKAGES += \
